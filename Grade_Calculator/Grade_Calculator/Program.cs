@@ -13,7 +13,7 @@ class Program
         //Declare and initialize my name
         string studentName = "Brandon";
 
-        //Declare and initialize  the grades array
+        //Declare and initialize the grades array
         int[] grades = { 100, 92, 87, 200, -20, 52, 82, 75, 67, 88 };
 
         Console.WriteLine($"Welcome {studentName}!");
@@ -54,14 +54,14 @@ class Program
             else
             {
                 Console.WriteLine("This is out of the range of 0-100. How did you even get this grade?");
-                continue; //Skip adding to total and count
+                continue; 
             }
 
             total += grade;
             count++;
         }
 
-        //Calculate average
+        //Calculate the average
         double average = (double)total / count;
         Console.WriteLine($"Your final calculated average is: {average}");
 
